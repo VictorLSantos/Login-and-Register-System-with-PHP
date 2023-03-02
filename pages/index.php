@@ -32,8 +32,7 @@ $result_portfolio = mysqli_query($conn, $show_portfolio);
     <script src="https://kit.fontawesome.com/c08d9ddcc6.js" crossorigin="anonymous"></script>
 
     <!-- JQUERY -->
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
-        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous">
     </script>
 
 
@@ -142,7 +141,7 @@ $result_portfolio = mysqli_query($conn, $show_portfolio);
                 non
                 architecto iure officiis doloremque at dolore accusamus vitae numquam illum esse. Dolore, nisi expedita?
             </p>
-            <a class="button_general" href="login.php">Our services</a>
+            <a class="button_general" href="#services_ancora">Our services</a>
         </div>
         <div class="img_about">
             <img src="../image/19362653-removebg-preview.png" alt="">
@@ -166,8 +165,7 @@ $result_portfolio = mysqli_query($conn, $show_portfolio);
                             ratione iusto voluptates eligendi ipsam omnis facere. Nisi commodi, velit inventore labore
                             assumenda tempora aut ad!</p>
                     </div>
-                    <a type="submit" name="services_entry" class="our_services services_about"
-                        href="./frontend_service.php">Make an
+                    <a type="submit" name="services_entry" class="our_services services_about" href="./frontend_service.php">Make an
                         appointment</a>
                 </div>
 
@@ -181,8 +179,7 @@ $result_portfolio = mysqli_query($conn, $show_portfolio);
                             ratione iusto voluptates eligendi ipsam omnis facere. Nisi commodi, velit inventore labore
                             assumenda tempora aut ad!</p>
                     </div>
-                    <a type="submit" name="services_entry" class="our_services services_about"
-                        href="./backend_service.php">Make an
+                    <a type="submit" name="services_entry" class="our_services services_about" href="./backend_service.php">Make an
                         appointment</a>
                 </div>
 
@@ -196,8 +193,7 @@ $result_portfolio = mysqli_query($conn, $show_portfolio);
                             ratione iusto voluptates eligendi ipsam omnis facere. Nisi commodi, velit inventore labore
                             assumenda tempora aut ad!</p>
                     </div>
-                    <a type="submit" name="services_entry" class="our_services services_about"
-                        href="front_back_service.php">Make an
+                    <a type="submit" name="services_entry" class="our_services services_about" href="front_back_service.php">Make an
                         appointment</a>
                 </div>
 
