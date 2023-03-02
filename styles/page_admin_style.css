@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --main-color: #03045e;
+    --second-color: #acb8c1;
+    --font-size-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+    --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.29rem);
+    --font-size-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.79rem);
+    --font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+    --font-size-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+    --font-size-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+    --font-size-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
+}
+
+.section_admin_page {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("../image/mesh-182.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* overflow-x: auto; */
+}
+
+.section_admin_page h1 {
+    margin-top: 2em;
+    font-size: var(--font-size-xl);
+    text-transform: uppercase;
+    color: #0096c7;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Page ADD NEWS */
+
+.message_exists {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin: 2em auto 0.5em auto;
+    color: green;
+    font-weight: bold;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.content_news_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0em 0em 1em 0em;
+}
+
+#box_news_form {
+    max-width: 100%;
+    padding: 0em 0.5em;
+}
+
+#box_portfolio_form {
+    max-width: 100%;
+    padding: 0em 0.5em;
+}
+
+.form_news {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 3px 1.5em #0096c7;
+    padding: 0.7em;
+    max-width: 100%;
+    margin: 2em 0em;
+    width: 650px;
+}
+
+.form_news h2 {
+    margin: 1em 0em;
+    font-size: var(--font-size-base);
+    text-transform: uppercase;
+    color: #ccc;
+    text-shadow: 1px 1px 1px #0096c7;
+    font-weight: 700;
+}
+
+.content_title_news,
+.content_link_news,
+.content_description_news,
+.content_image_project,
+.content_technologies_news,
+.content_github_news {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.3em;
+    margin: 0.5em 0em;
+}
+
+.content_button {
+    padding: 0.3em;
+}
+
+.content_title_news label,
+.content_link_news label,
+.content_description_news label,
+.content_image_project label,
+.content_technologies_news label,
+.content_github_news label {
+    color: #fff;
+    font-size: var(--font-size-base);
+    margin-bottom: 0.6em;
+}
+
+.content_title_news input,
+.content_link_news input,
+.content_description_news input,
+.content_technologies_news input,
+.content_github_news input {
+    padding: 0.6em 0.9em;
+    outline: none;
+    border: none;
+}
+
+.content_button button {
+    color: #ffffff;
+    background-color: #0a2647;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.7em 1.2em;
+    margin: 1.5em 0em 1em 0em;
+    font-size: 0.9em;
+    border: none;
+}
+
+/* Table users */
+#box_listuser_form {
+    width: 100%;
+    background-color: #0096c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_table {
+    max-width: 100%;
+    width: 650px;
+    overflow-x: auto;
+    margin: 2em 0em;
+}
+
+.table_users {
+    padding: 1em;
+    background-color: #03045e;
+    border-radius: 5px;
+}
+
+.table_users thead {
+    text-align: center;
+    background-color: #0a2647;
+    color: #fff;
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+}
+
+.table_users thead tr th {
+    padding: 0.3em 0.6em;
+    margin: 0em 0.3em;
+}
+
+.table_users tbody {
+    text-align: center;
+    color: #fff;
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+}
+
+.table_users tbody tr {
+    background-color: #0a2647;
+}
+
+.table_users tbody tr td {
+    border-bottom: 1px solid #fff;
+}
+
+.edit_profile {
+    padding: 0.3em 0.5em;
+    background-color: #0096c7;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}
+
+.delete_profile {
+    padding: 0.3em 0.5em;
+    background-color: #0096c7;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}

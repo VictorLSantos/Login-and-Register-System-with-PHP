@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --main-color: #03045e;
+    --second-color: #acb8c1;
+    --font-size-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+    --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+    --font-size-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.79rem);
+    --font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+    --font-size-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+    --font-size-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+    --font-size-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
+}
+
+.message_exists {
+    font-size: 0.9em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0.3em auto 0.1em auto;
+    color: green;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.section_update {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../image/mesh-182.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card_update_user {
+    background: rgb(3, 4, 94);
+    background: linear-gradient(0deg, rgba(3, 4, 94, 1) 0%, #0075d4 100%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+    color: #b3b8cd;
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0em 0.5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_update_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0em 1em;
+}
+
+.title_update {
+    margin: 1em 0em;
+    text-transform: uppercase;
+    font-size: var(--font-size-lg);
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
+#user_customers_divider,
+#user_data_divider,
+#user_services_divider {
+    font-size: var(--font-size-sm);
+    color: #fff;
+    margin: 0.5em 0em;
+}
+
+.dates_customers,
+.dates_appointment,
+.dates_users {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+.box_email_update,
+.box_password_update,
+.box_tel_update,
+.box_address_update,
+.box_services_update,
+.box_appointments_update {
+    margin-top: 0.3em;
+    padding: 0.3em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.box_email_update label,
+.box_password_update label,
+.box_tel_update label,
+.box_address_update label,
+.box_services_update label,
+.box_appointments_update label {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    color: #ccc;
+    letter-spacing: 0.3em;
+    line-height: 2em;
+}
+
+.box_services_update p {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.box_email_update input,
+.box_password_update input,
+.box_tel_update input,
+.box_address_update input,
+.box_appointments_update input {
+    font-size: 1em;
+    color: #03045e;
+
+    outline: none;
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.box_password_update input::placeholder {
+    color: #fff;
+}
+
+.content_button_update {
+    margin: 1em 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home_toprofile {
+    padding: 0.9em 1.3em;
+    font-size: var(--font-size-sm);
+    background-color: #009eff;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 0.3em;
+    cursor: pointer;
+    margin: 0em 0.3em;
+    border: none;
+}
+
+#update_profile {
+    border: none;
+    padding: 0.9em 1.3em;
+    font-size: var(--font-size-sm);
+    background-color: #009eff;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 0.3em;
+    cursor: pointer;
+    margin: 0em 0.3em;
+}

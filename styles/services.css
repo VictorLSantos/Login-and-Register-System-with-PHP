@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --main-color: #03045e;
+    --second-color: #acb8c1;
+    --font-size-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+    --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+    --font-size-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+    --font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+    --font-size-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+    --font-size-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+    --font-size-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
+}
+
+.message_exists {
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+    margin: 1em auto 1em auto;
+    color: #ffffff;
+    background-color: green;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.services_seller {
+    max-width: 100%;
+    min-height: 100vh;
+    background: url("../image/mesh-182.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.btn_back {
+    top: 1%;
+    left: 1%;
+    padding: 0.3em;
+    position: absolute;
+    font-size: 1.5em;
+}
+
+.btn_back i {
+    color: #03045e;
+}
+
+.content_services {
+    z-index: 15;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.info_services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_services h2 {
+    color: #caf0f8;
+    margin: 0.3em 1.5em 1em 1.5em;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.info_services h3 {
+    color: #03045e;
+    font-size: var(--font-size-md);
+}
+
+.info_services p {
+    padding: 1.5em 1.5em 1em 1.5em;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: #caf0f8;
+    line-height: 1.4em;
+}
+
+.content_img_services {
+    width: 300px;
+    height: 100%;
+    margin-bottom: 1.5em;
+    padding: 0.5em;
+}
+
+.content_img_services img {
+    width: 100%;
+}
+
+/* Form */
+
+.form_services_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 1.5em auto;
+}
+
+.form_services_content h2 {
+    color: #ffffff;
+    padding: 0.3em 0.5em;
+    font-size: var(--font-size-base);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.form_services {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1.5em auto;
+    padding: 0em 0.5em;
+}
+
+.form_services input {
+    width: 100%;
+    padding: 0.5em 1em;
+}
+
+#services_input {
+    width: 100%;
+    padding: 0.5em 1em;
+}
+
+#services_input option {
+    padding: 0.5em 1em;
+    background-color: black;
+}
+
+.schedule {
+    color: #ffffff;
+    background-color: #0a2647;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    font-size: var(--font-size-sm);
+    border: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .btn_back {
+        display: none;
+    }
+}
