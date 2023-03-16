@@ -39,39 +39,16 @@ if (isset($_POST["update_profile_name"])) {
 
                 $message[] = "Need 3 days or more for a new appointment";
             } else {
-                mysqli_query($conn, "UPDATE `users` SET email = '$update_email', telephone = '$update_telephone', email = '$update_email', address = '$update_address', appointment_date = '$update_appointments_date' WHERE id = '$update_id'") or die("query failed");
+                mysqli_query($conn, "UPDATE `users` SET email = '$update_email', 
+                telephone = '$update_telephone', 
+                email = '$update_email', 
+                address = '$update_address', 
+                appointment_date = '$update_appointments_date' 
+                WHERE id = '$update_id'") or die("query failed");
                 $message[] = "Edit done successfully";
             }
         }
     }
-
-
-    // if (isset($data_cons)) {
-    //     $data_cons = $consulta_data['appointments_update'];
-
-
-    //     $marcacao = "$data_cons";
-
-    //     $data_atual = time();
-    //     // echo $data_atual;
-
-
-    //     $data_consulta = strtotime("$marcacao");
-    //     echo $data_consulta;
-
-
-
-    //     $diferenca = $data_atual - $data_consulta;
-
-
-    //     $diferenca_dias = abs(floor($diferenca / (60 * 60 * 24)));
-
-
-
-    //     if ($diferenca_dias < 3) {
-    //     }
-    //     echo $marcacao;
-    // }
 }
 ?>
 

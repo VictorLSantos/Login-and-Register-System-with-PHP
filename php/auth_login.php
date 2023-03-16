@@ -17,8 +17,8 @@ if (isset($_POST["login_user"])) {
         $_SESSION["user_nivel"] = $row["nivel"];
         header("location: index.php");
     } elseif ($user_login == 0) {
-        session_destroy();
-        die();
+        // session_destroy();
+        // die();
         header("location: register.php");
     } else {
         $message[] = "Incorrect username/password";
